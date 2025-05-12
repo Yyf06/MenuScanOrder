@@ -1,0 +1,17 @@
+"id","username","password_hashed","usertype","email","isadmin","business_name","business_type","business_address","total_tables"
+"1","1212","$2y$10$KQjrhLSzyM55wa27zpGiSOS1j7.yD5Jx.5JDArss9m3AoLe0Rnb8y","business_owner",NULL,"0",NULL,NULL,NULL,NULL
+"7","1234","$2y$10$CaAIZlfR1l0xyTnQhbrph.JlTquy4i7BtbFFpK.5YtxVgIbUaXSVG","business_owner",NULL,"0","hao ",NULL,NULL,NULL
+"10","Sharon",,"customer","sharon.yufei.yao@gmail.com","0",NULL,NULL,NULL,NULL
+"11","Yu Yi",,,"yaoyufei1006@gmail.com","1",NULL,NULL,NULL,NULL
+"13","admin",,,"infsmarker@gmail.com","1",NULL,NULL,NULL,NULL
+"23","test123","$2y$10$vf9Vmcge760AWe5D5gEBmex20gs4z.Bbw/2Son85zdXeh.WjV3nxC","business_owner","s4795872@student.uq.edu.au","0","test",NULL,"test","123"
+"24","hjahai","$2y$10$aPxqWibJbkd9.WaTQm4fGe6EtfSUAPm7DjvtDtcYZQScjjvlug98G","business_owner","ewf@173.com","0","daswd",NULL,"dwad","21"
+"25","wfe","$2y$10$4bgywpJal6t7TC8PuvYOzOABdKppRW724x633h9s.Km4GvvyY8hbS","business_owner","s4795872@student.uq.edu.au","0","wef",NULL,"2w3","1"
+"26","aewcdfwef","$2y$10$E35lwzXOV8BJcpyySo83m.EiFo2H8J/Y1qck7AhzjiB3ko7Ww/Rqi","business_owner","s4795872@student.uq.edu.au","0","3r2r3",NULL,"wef","33"
+"28","ergvfergv","$2y$10$ecOaKcvq07MSe2nqSncDPuwOXTHNfi5K.Kpzs8e8yGcR8KyAGL5iO","business_owner","123e467@163.com","0","reggre","cafe","gre","32"
+"29","wefwerf","$2y$10$9FFIugqjDaQJUXs9bej.DOID2U0E.qhg3w615QPpB6A5.x0z2M/C.","business_owner","ewrfg@135.com","0","32re",NULL,"32e4","23"
+"30","12345","$2y$10$X8WNgujaF1YHooLpxXr4quFfBmdYvTEXnHtiLgDQF4J8/LyuAhdwO","business_owner","s4795872@student.uq.edu.au","0","haaha",NULL,"hahah","12"
+"31","customer1","$2y$10$rYVeEglxSKEXwbK4SPRCsONFLEnJdBnkHCAXGpXncKNCgalGJ5/by","customer","s4795872@student.uq.edu.au","0",NULL,NULL,NULL,NULL
+"32","customer1","$2y$10$R./woVNaFkeDvUnIcuEQFeH1Lw9BiwqH8wD/9MPMXrsoJ6NxlajlO","customer","s4795872@student.uq.edu.au","0",NULL,NULL,NULL,NULL
+"33","admin","$2y$10$jkZZ0/G9oHnc1dqIhpCVKOWxpQ63dSSst/Xod2za9.Eb.eeY6rsS2",,"infsmarker@gmail.com","1",NULL,NULL,NULL,NULL
+"37","admindefault","$2y$10$pEJgbztW4AYNOt/TMZuJPe0hBFA8PNaVp.3aG58gDJ/wRakEHM6uy","admin","infsmarker@gmail.com","1","admin","restaurant","uq","12"

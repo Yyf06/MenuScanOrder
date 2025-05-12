@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 7]> <html class="lte-ie7 lt-ie9 lt-ie8" lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 8]> <html class="lte-ie8 lt-ie9" lang="en" dir="ltr"> <![endif]-->
+<!--[if lte IE 9]> <html class="lte-ie9" lang="en" dir="ltr"> <![endif]-->
+<!--[if gt IE 9]><!--> <html xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr"> <!--<![endif]-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<link rel="icon" type="image/icon" href="https://auth.uq.edu.au/idp/module.php/uqtheme/images/favicon.ico" />
+	<title>Enter your username and password - The University of Queensland, Australia</title>
+	<link type="text/css" rel="stylesheet" href="https://auth.uq.edu.au/idp/module.php/uqtheme/fonts/Roboto/roboto.css" media="all" />
+	<!-- THEME INCLUDES -->
+	<link rel="stylesheet" href="https://auth.uq.edu.au/idp/module.php/uqtheme/css/normalize.css" type="text/css" />
+	<link rel="stylesheet" href="https://auth.uq.edu.au/idp/module.php/uqtheme/css/uq.css" type="text/css" />
+	<script type="text/javascript" src="https://auth.uq.edu.au/idp/module.php/uqtheme/js/uq.modernizr.js"></script>
+	<script type="text/javascript" src="https://auth.uq.edu.au/idp/module.php/uqtheme/lib/jquery/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="https://auth.uq.edu.au/idp/module.php/uqtheme/lib/jquery/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="https://auth.uq.edu.au/idp/module.php/uqtheme/lib/jquery/equalize.min.js"></script>
+        <style>
+        @media screen and (max-width: 640px) , screen and (max-height: 640px) {
+                  .sign-on__panel{
+                       margin-top:0.5rem;
+                  }
+              }
+        </style>
+</head>
+<body>
+<div class="skip-link">
+   <a href="#main-content" class="show-for-sr">Skip to main content</a>
+</div>
+<div class="site-header">
+<div class="hide-for-small-only">
+<div class="site-header__content">
+    <div class="columns large-12">
+      <a href="http://www.uq.edu.au/" title="UQ Homepage" class="uq-logo">The University of Queensland</a>
+      <h2 class="site-title"><a class="site-title__link" rel="home" title="UQ Authenticate" href="https://auth.uq.edu.au/idp"><span>UQ Authenticate</span></a></h2>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="show-for-small-only">
+<div class="site-header__content" style="padding-top:0.5rem;padding-bottom:0.5rem;">
+    <div class="columns large-12">
+      <a href="http://www.uq.edu.au/" title="UQ Homepage" class="uq-logo">The University of Queensland</a>
+    </div>
+  </div>
+</div>
+
+</div>
+<div class="page">
+<!-- END HEADER -->
+<script type="text/javascript" src="https://auth.uq.edu.au/idp/module.php/uqtheme/lib/foundation-5.0.2/foundation.min.js"></script>
+<a id="main-content"></a>
+<div class="page__content">
+    <div class="sign-on__panel">
+        <div class="row">
+            <div class="large-6 large-offset-3 small-12 columns">
+                <!-- UQ SSO Info -->
+                <div class="hide-for-small-only">
+                <div class="sign-on__icon">
+                    <a href="https://auth.uq.edu.au/about/" target="_blank"><img src="https://auth.uq.edu.au/idp/module.php/uqtheme/images/lock2.svg" class="center"/></a>
+                </div>
+                </div>
+                <h1 class="sign-on__title sign-on__title--centered">UQ Authenticate</h1>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="sign-on__content">
+                                                <form class="sign-on__form" action="?" method="post" name="f" id="loginuserpass">
+                    <label for="username" class="sign-on__form-label">Username</label>
+                    <input type="text" id="username" tabindex="1" name="username" title="UQ username" placeholder="UQ username" value="" autofocus/>                    <div class="sign-on-form__border"></div>
+                    <label for="password" class="sign-on__form-label">Password</label>
+                    <input id="password" type="password" name="password" title="Password" placeholder="Password" tabindex="2" /> 
+                    <input type="submit" name="submit" tabindex="3" class="button button--primary button--sign-on" value="LOGIN" tabindex="3" />
+                    <input type="hidden" name="AuthState" value="_b4be580d36b602a17177abf174d6d88cc5ead84c06:https://auth.uq.edu.au/idp/saml2/idp/SSOService.php?spentityid=https%3A%2F%2Fapi.uqcloud.net%2Fsaml%2Fmetadata&amp;RelayState=X85wO9aNPVRIDO1FXnjLUKJl94pXxZIy&amp;cookieTime=1715841360" />                </form>
+                            </div>
+            <div class="sign-on__footer">
+
+                                <div class="sign-on__footer-forgot small-12 medium-12 large-6 columns">
+                        &nbsp;
+                </div>
+                <div class="sign-on__footer-terms small-12 medium-12 large-6 columns">
+                            <span title="Not recommended for public or shared computers">
+                            <input type="checkbox" id="remember_username" tabindex="4" form="loginuserpass"
+                                                                      name="remember_username" value="Yes" >
+                            Remember my username   </input></span>
+                </div>
+                    
+
+            	<div class="sign-on__footer-forgot small-12 medium-12 large-6 columns">
+            		<a href="https://support.my.uq.edu.au/app/answers/detail/a_id/2535" target="_blank">Trouble logging in?</a>
+            	</div>
+            	<div class="sign-on__footer-terms small-12 medium-12 large-6 columns">
+            		<a href="https://ppl.app.uq.edu.au/content/6.20.01-acceptable-use-uq-ict-resources" target="_blank">Terms of use</a>
+            	</div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).foundation();
+    $(document).foundation('alert', 'reflow');
+    $(document).on('close.fndtn.alert', function(event) {
+    	console.info('An alert box has been closed!');
+    });
+</script>
+
+
+    </div>
+</div>
+
+</body>
+</html>

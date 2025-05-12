@@ -1,0 +1,91 @@
+.carousel {
+    height: 300px;
+}
+
+.nav-pills .nav-link {
+    color: #333;
+}
+
+.nav-pills .nav-link.active 
+.nav-pills .nav-link:hover {
+    background-color: #ffc107;
+}
+
+.carousel-item img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.collection-area {
+    margin-top: 20px;
+}
+
+.btn.btn-primary {
+    background-color: #ffc107;
+    border: none;
+}
+
+.attribution {
+    display: none;
+}
+
+.col .card-title2 {
+    margin-left: 70px;
+    text-align: end;
+}
+
+body.landing {
+    margin-bottom: 100px;
+}
+
+.btn-custom {
+    background-color: #aaaa;
+    color: black;
+}
+
+
+.description-wrapper {
+    max-width: 300px;
+ 
+}
+
+.changebutton{
+    width: fit-content;
+}
+.collapsed {
+    max-height: 100px;
+    overflow: hidden;
+}
+
+.password-column{
+    width: 30px; 
+}
+.card-title2 {
+    margin-left: 16x; 
+}
+
+.delete-button{
+    display: flex;
+    justify-content: center;
+}
+
+.pagination .page-link {
+    background-color: #ffc107; 
+    color: #000; 
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #ffc107; 
+    border-color: #ffc107; 
+    color: #000; 
+}
+
+.pagination .page-link.disabled {
+    pointer-events: none; 
+    color: #6c757d;
+}
+
+footer {
+    margin-top: 0;
+    padding: 0;
+}
